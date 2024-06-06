@@ -1,0 +1,150 @@
+<!-- 
+    Aluno: Luciano Borges
+    Matricula: 00021904
+-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/logo-fepi.png" type="image/x-icon">
+    <link rel="stylesheet" href="style1.css">
+    <title>Formulario</title>
+</head>
+
+<body>
+<header>
+        <h1 class="titulo">CADASTRO PESSOAL</h1>
+        <img src="img/logo-fepi.png" alt="Logo FEPI">
+</header>
+<main>
+    <fieldset>
+    <legend>Dados Pessoais</legend>
+    <form action="#" name="cadastro pessoal" method="#">
+    <section class="container">
+        <div class="forms">
+            <label for="nome">Nome:</label> 
+            <input type="text" required>
+            <label for="email">E-mail:</label>
+            <input type="email" required>
+        </div>
+
+        <div class="forms">
+            <label for="nascimento">Nascimento:</label>
+            <input type="date" required>
+        </div class="forms">
+
+        <div class="forms">
+            <label for="rg">RG:</label>
+            <input type="text" required>
+        </div>
+
+        <div class="forms">
+            <label for="cpf">CPF:</label>
+            <input type="text" placeholder="000.000.000-00" required>
+        </div>
+    </section>
+    </fieldset>
+
+    <fieldset>
+    <legend>Endereço</legend>
+    <section class="container">
+        <div class="forms">
+            <label for="rua">Rua:</label> 
+            <input type="text" required>
+            <label for="numero">Número:</label>
+            <input type="number" required>
+        </div>
+
+        <div class="forms">
+            <label for="bairro">Bairro:</label>
+            <input type="text" required>
+        </div>
+
+        <div class="forms">
+            <label for="estado">Estado:</label>
+            <select name="Estado" id="1">
+                <option value="AC">Acre</option>
+                <option value="AL">Alagoas</option>
+                <option value="AP">Amapá</option>
+                <option value="AM">Amazonas</option>
+                <option value="BA">Bahia</option>
+                <option value="CE">Ceará</option>
+                <option value="ES">Espírito Santo</option>
+                <option value="GO">Goiás</option>
+                <option value="MA">Maranhão</option>
+                <option value="MT">Mato Grosso</option>
+                <option value="MS">MAto Grosso do Sul</option>
+                <option value="MG">Minas Gerais</option>
+                <option value="PA">Pará</option>
+                <option value="PB">Paraíba</option>
+                <option value="PR">Paraná</option>
+                <option value="PE">Pernambuco</option>
+                <option value="PI">Piauí</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="RN">Rio Grande do Norte</option>
+                <option value="RS">Rio Grande do Sul</option>
+                <option value="RO">Rondônia</option>
+                <option value="RR">Roraima</option>
+                <option value="SC">Santa Catarina</option>
+                <option value="SP">São Paulo</option>
+                <option value="SE">Sergipe</option>
+                <option value="TO">Tocantins</option>
+                <option value="DF">Distrito Federal</option>
+            </select>
+        </div>
+
+        <div class="forms">
+            <label for="cidade">Cidade:</label>
+            <input type="text" required>
+        </div>
+
+        <div class="forms">
+            <label for="cep">CEP:</label>
+            <input type="text" required>
+        </div>
+    </section>
+    </fieldset>
+
+    <fieldset>
+    <legend>Login</legend>
+    <section class="container">
+        <div class="forms">
+            <label for="imagem">Imagem de perfil:</label>
+            <input type="file" required>
+        </div>
+
+        <div class="forms">
+            <label for="login">Login de usuário:</label>
+            <input type="text" required>
+        </div>
+
+        <div class="forms">
+            <label for="senha">Senha:</label>
+            <input type="password" required>
+        </div>
+
+        <div class="forms">
+            <label for="corfirmaçao">Confirme sua senha:</label>
+            <input type="password" required>
+        </div>
+    </section>
+    </fieldset>
+    <section class="term">
+        <input class="checkbox" type="checkbox" required> 
+        <p>Eu li e concordo com o</p> 
+        <a href="#" class="termo-de-uso" target="_blank"> Termo de Uso</a>
+    </section>
+    <section class="buttons">
+    <button type="submit">Enviar Dados</button>
+    <button type="reset">Limpar</button>
+    </section>
+
+    <section class="lgpd">
+        <a href="https://www.planalto.gov.br/ccivil_03/_ato2015-2018/2018/lei/l13709.htm" target="_blank">LGPD para saber mais</a>
+    </section>
+    </form>
+    </main>
+</body>
+</html>

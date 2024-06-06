@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(243, 245, 231);
+    margin: 10px 50px 10px;
+    font-size: x-large;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+header {
+    font-family: "Noto Sans Mono", monospace;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: 20px;
+    margin-bottom: 15px;
+    gap: 110px;
+    border-bottom: 2px solid rgba(238, 255, 0, 0.616);
+    padding-bottom: 20px;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    padding: 30px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 10px;
+
+}
+fieldset {
+    background-color: rgb(227, 244, 247);
+    padding: 20px 70px 10px 15px;
+}
+
+input {
+    width: 200px;
+    height: 20px;
+}
+
+select {
+    width: 200px;
+    height: 25px;
+}
+
+legend {
+    font-weight: 600;
+    background-color: rgba(228, 229, 243, 0.623);
+    border-bottom: 0px;
+    border-radius: 5px ;
+    padding: 0px 6px 0px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.forms {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+input, select, button {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+button {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+select:hover {
+    background-color: #ecf5ff;
+}
+
+input:hover {
+    background-color: #ecf5ff;
+}
+
+.term {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+.termo-de-uso {
+    color: black;
+}
+
+.checkbox {
+    width: 17px;
+    cursor: pointer;
+}
+
+.lgpd {
+    margin-top: 10px;
+    font-size: 15px;
+}
